@@ -1,0 +1,305 @@
+/*
+Theme Name: Timber
+*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1030px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.main,
+.footer {
+    text-align: center
+}
+
+.header {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 16vh
+}
+
+.header .header__inner {
+    text-align: center;
+    width: 53vh;
+    height: 53vh;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1vh solid #f4d4a5;
+    padding-top: 1.3vh;
+    margin-left: 12vh
+}
+
+.header .header__inner .header__title {
+    text-transform: uppercase;
+    color: #1fad26;
+    font-weight: 700;
+    padding: 0 0.5vh;
+    font-size: 5vh
+}
+
+.header .header__inner .header__sale img {
+    height: 25vh;
+    width: 25vh;
+    margin-top: 4vh
+}
+
+.header .header__name {
+    padding-top: 1.2vh;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    margin-bottom: 1.5vh;
+    color: #bf4200
+}
+
+.phone {
+    font-weight: 300;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block
+}
+
+.header .phone {
+    font-size: 3.5vh;
+    margin-bottom: 4vh;
+}
+
+.main {
+    padding-top: 60px
+}
+
+.main .main__title {
+    margin-bottom: 60px;
+    font-size: 41px;
+    color: #d07a2d
+}
+
+.main .main__text {
+    font-size: 30px
+}
+
+.main .main__img {
+    padding: 90px 0
+}
+
+.project__title,
+.gallery__title {
+    font-size: 41px;
+    color: #d0662d;
+    font-weight: 700
+}
+
+.project ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.project__item {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 25px;
+    padding: 0
+}
+
+.project__item .project__name {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.project__item .project__price {
+    color: #17753b;
+    padding-bottom: 30px
+}
+
+.download {
+    background-color: #f1dfbc;
+    padding: 35px 0;
+    text-align: center
+}
+
+.download img {
+    display: block;
+    margin: 0 auto
+}
+
+.download .download__link a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #17753b;
+    border: 5px solid #effd15;
+    border-radius: 3px;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 23px 67px
+}
+
+.gallery .gallery__title {
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 40px
+}
+
+.gallery .gallery__text {
+    font-size: 25px;
+    padding-bottom: 50px
+}
+
+#gallery__inner .gallery dl {
+    margin: 0;
+}
+
+#gallery__inner dl img {
+    display: block;
+    border: none;
+}
+
+.footer {
+    text-align: center
+}
+
+.footer .phone {
+    display: block;
+    font-weight: 700
+}
+
+.footer .footer__email {
+    display: block;
+    padding-top: 40px;
+    margin-bottom: 150px;
+    color: #2f8bc5;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer .footer__email span {
+    display: inline-block;
+    border-bottom: 1px solid #2f8bc5;
+    padding-bottom: 3px;
+}
+
+@media (max-width: 620px) {
+    .header {
+        padding-top: 21vh
+    }
+
+    .header .header__inner {
+        width: 80vw;
+        height: 80vw;
+        border: 1.5vw solid #f4d4a5;
+        padding-top: 1.95vw;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .header .header__inner .header__title {
+        padding: 0 0.75vw;
+        font-size: 9vw
+    }
+
+    .header .header__inner .header__sale img {
+        height: 57vw;
+        width: 57vw;
+        margin-top: 6vw
+    }
+
+    .header .header__name {
+        padding-top: 1.8vw;
+        font-size: 5.4vw;
+        margin-bottom: 2.25vw;
+    }
+
+    .header .phone {
+        font-size: 6.3vw;
+        margin-bottom: 6vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .main .main__title {
+        margin-bottom: 45px;
+        font-size: 30px;
+    }
+
+    .main .main__text {
+        font-size: 22.5px;
+    }
+
+    .main .main__img {
+        padding: 50px 0;
+    }
+
+    .project__title,
+    .gallery__title {
+        font-size: 30px;
+    }
+
+    .project__item {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 19px;
+    }
+
+    .project__item .project__name {
+        font-size: 25px;
+    }
+
+    .download .download__link a {
+        font-size: 21px;
+    }
+
+    .gallery .gallery__text {
+        font-size: 20px;
+    }
+
+    .footer .phone {
+        font-size: 32px;
+    }
+
+    .footer .footer__email {
+        font-size: 26px;
+        margin-bottom: 90px;
+    }
+}
